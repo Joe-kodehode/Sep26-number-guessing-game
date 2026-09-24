@@ -10,7 +10,7 @@ const restartButton = document.querySelector("#restartButton");
 // Declare global variables (used in multiple functions)
 let randomNum, gueesesLeft, previousGuesses;
 
-// Function to initialize the game
+// Function to initialize the game on page load and when we click restart button
 function initGame() {
   // Generate a random number between 1-100
   randomNum = Math.floor(Math.random() * 100) + 1;
